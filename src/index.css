@@ -1,6 +1,6 @@
 :root {
   --color-primary: #83a3df;
-  --color-primary-light: #00000056;
+  --color-primary-light: #07060556;
   --color-text: #dadcdd;
   --color-text-dark: #bfcbd6;
   --color-background-100: #343a40;
@@ -326,12 +326,11 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   border: none;
-  /* background-color: var(--color-text); */
-  background-color: #fff;
+  background-color: var(--color-text);
   color: var(--color-background-500);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
   font-family: sans-serif;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
   z-index: 999;
